@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lacquer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+      background-color: lightblue;
+    }
+  }
+
+
+.principal{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px 0 0 0;
+    margin-left: 35px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{ font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: #0d0c0c;
+    margin-bottom: 25px;
+}
+
+article{
+    font-family: "Roboto", sans-serif;
+    color: #4d4e53;
+    font-size: 15px;
+    padding-left: 18px;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 25px;
+    margin-bottom: 110px;
+}
+
+main article{
+    margin: 10px;
+}
+
+.code{
+    font-family: "Roboto", sans-serif;
+    color: #4d4e53;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.titulo{
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 45px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    
+    position: relative;
+    
+    line-height: 2;
+    color: #ffffff;
+    background-color: #0d0c0c;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.comentario{
+    color: rgb(111, 110, 110);
+}
+.relleno{
+    color: white;
+}
+
+.texto{
+ color: rgb(0, 128, 68);
+}
+
+.print{
+    color: orange;
+}
+
+.red{
+    color: rgb(211, 33, 56);
+}
+
+.function{
+    color:rgb(171, 9, 74);
+}
+
+.const{
+    color: rgb(20, 141, 211);
+}
